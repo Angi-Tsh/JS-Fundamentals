@@ -8,6 +8,6 @@ else { let outputString = "";
   while (count < x) {
     outputString += "C is fun";
     outputString += '\n'; count++;
-  } 
+  } outputString = outputString.slice(0, -1);
   console.log(outputString);
 }
